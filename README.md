@@ -87,7 +87,17 @@ Alur kerja:
 3. Loop terus untuk semua client
 
 # Server Poll (I/O Multiplexing)
-...
+
+Server menggunakan **poll()**:
+* Hanya **1 thread**
+* Mengawasi banyak socket sekaligus
+
+Alur kerja:
+
+1.Setiap client disimpan sebagai file descriptor (fd)
+2. Server memonitor semua socket
+3. Jika ada socket aktif, maka client akan diproses satu per satu
+4. Di-loop terus menerus untuk semua client
 
 ## Screenshot Hasil
 
