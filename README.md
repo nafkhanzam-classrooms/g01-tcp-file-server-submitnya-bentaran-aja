@@ -4,8 +4,8 @@
 ## Anggota Kelompok
 | Nama           | NRP        | Kelas     |
 | ---            | ---        | ----------|
-|                |            |           |
-|                |            |           |
+| Yasmina Fitri Azizah               | 5025241039           | Pemrograman Jaringan D           |
+| Kinanti Ayu Caesandria               | 5025241047           | Pemrograman Jaringan D           |
 
 ## Link Youtube (Unlisted)
 Link ditaruh di bawah ini
