@@ -94,7 +94,7 @@ Server menggunakan **poll()**:
 
 Alur kerja:
 
-1.Setiap client disimpan sebagai file descriptor (fd)
+1. Setiap client disimpan sebagai file descriptor (fd)
 2. Server memonitor semua socket
 3. Jika ada socket aktif, maka client akan diproses satu per satu
 4. Di-loop terus menerus untuk semua client
