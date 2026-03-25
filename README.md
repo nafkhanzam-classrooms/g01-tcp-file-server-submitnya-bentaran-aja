@@ -43,7 +43,7 @@ Fitur: Menggunakan **queue** untuk sinkronisasi upload & download dan menggunaka
 
 # Server Sync (Synchronous)
 
-##  Mekanisme!
+##  Mekanisme
 
 Server bekerja secara **blocking (synchronous)**:
 
@@ -58,7 +58,7 @@ Alur kerja:
 
 # Server Thread (Multithreading)
 
-##  Mekanisme!
+##  Mekanisme
 
 Setiap client ditangani oleh **thread terpisah**:
 
@@ -73,7 +73,7 @@ Alur kerja:
 
 # Server Select (I/O Multiplexing)
 
-## Mekanisme!
+## Mekanisme
 
 Server menggunakan **select()**:
 
@@ -143,7 +143,25 @@ Alur kerja:
   
   <img width="667" height="315" alt="Screenshot 2026-03-25 194118" src="https://github.com/user-attachments/assets/b8518b0f-4849-4c9e-a381-27b27190cbfb" />
 
+### Server Poll
 
+* Server Side
+  
+  <img width="346" height="138" alt="Screenshot 2026-03-25 211523" src="https://github.com/user-attachments/assets/7306712b-95df-4188-99e5-b12d856254d8" />
+
+* Client 1
+  
+  <img width="452" height="232" alt="Screenshot 2026-03-25 210429" src="https://github.com/user-attachments/assets/b1404c29-047b-4d1f-82e8-dab3b55a590f" />
+
+* Client 2
+  
+  <img width="549" height="233" alt="Screenshot 2026-03-25 210448" src="https://github.com/user-attachments/assets/dd56eea5-5afd-454c-995d-b826555d0163" />
+
+* Client 3
+  
+  <img width="371" height="381" alt="Screenshot 2026-03-25 210505" src="https://github.com/user-attachments/assets/c1945d1a-572d-4743-9acf-a17fed913998" />
+
+  
 # Kesimpulan
 * **Sync** cocok untuk sistem sederhana (single client)
 * **Thread** cocok untuk multi-client dengan implementasi mudah
